@@ -52,8 +52,12 @@ const App: React.FC = () => {
         />
       ) : (
         <>
-          <Button onClick={handleClick}>Mess with my light</Button>
-          <Button onClick={handleRocketLeague}>Rocket League Time!</Button>
+          <Button variant="contained" onClick={handleClick}>
+            Mess with my light
+          </Button>
+          <Button variant="contained" onClick={handleRocketLeague}>
+            Rocket League Time!
+          </Button>
         </>
       )}
     </Layout>
